@@ -1,1 +1,42 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+@font-face { font-family: "Entypo Social"; src: url('entypo-social.woff'); }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+* {
+
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	-webkit-font-smoothing:antialiased;
+	font-smooth:always;
+	box-sizing: border-box;
+
+}
+
+h1.header {
+	font-weight: bold;
+	color:#1790C9;
+	font-size: 50px;
+
+}
+
+.social a.icon {
+	font-family: "Entypo Social";
+	font-size: 6em;
+	display: inline;
+	color:#1790C9;
+	margin-left:10px;
+	min-width:55px !important;
+	text-decoration: none;
+}
+
+.social a.icon:hover {
+	color:#E86F36;
+}
+
+.small_subtitle {
+	color:#AAA;
+	border-bottom: 1px solid #AAA;
+	width:160px;
+	margin:0 auto;
+	padding-bottom: 3px;
+}

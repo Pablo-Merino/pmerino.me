@@ -3,5 +3,9 @@
 	%head
 		%title
 		%link{:href => '/main.css', :rel => 'stylesheet', :type => 'text/css'}
+		%link{:href => '/centerer.css', :rel => 'stylesheet', :type => 'text/css'}
 	%body
-		=yield
+		.wrap
+			.contain
+				.content
+					=yield
